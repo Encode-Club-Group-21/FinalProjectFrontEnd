@@ -129,19 +129,8 @@ const CustomInput = styled.input`
   padding: 0 10px 0 10px;
 `;
 const CreateOwnBet = ({ contract }) => {
-  const [username, setUsername] = useState("");
-  const [userInfo, setUserInfo] = useState("");
-
-  const [errMessage, setErrMessage] = useState("");
-  const [ratingGoal, setRatingGoal] = useState("");
-
   const [betAmount, setBetAmount] = useState(0);
-
-  const [chessMode, setChessMode] = useState("");
-  const [customRating, setCustomRating] = useState(false);
   const [customBet, setCustomBet] = useState(false);
-
-  const [customDate, setCustomDate] = useState(false);
 
   const border = {
     border: "3px solid #4e763b",
