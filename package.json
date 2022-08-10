@@ -1,7 +1,7 @@
 {
   "name": "finalproject",
   "version": "0.1.0",
-  "homepage": "https://ajmasta.github.io/finalProject",
+  "homepage": "https://encode-club-group-21.github.io/FinalProjectFrontEnd/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
