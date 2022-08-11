@@ -104,7 +104,11 @@ const CheckGoal = ({ contract, wallet, connectWallet }) => {
           <Parameters>
             Bet amount: {ethers.utils.formatEther(goal?.betAmount.toString())} Ξ
           </Parameters>
-          <Button onClick={() => contract.claimGoal()}>Claim</Button>
+          {goal.claimed ? (
+            "The goal was already claimed"
+          ) : (
+            <Button onClick={() => contract.claimGoal()}>Claim</Button>
+          )}
         </GoalContainer>
       ) : !goal?.goal.toNumber() > 0 ? (
         <Label>You do not have a goal!</Label>
@@ -138,6 +142,16 @@ const CheckGoal = ({ contract, wallet, connectWallet }) => {
                 >
                   Update!{" "}
                 </Button>
+                {calculateOneHour() ? (
+                  ""
+                ) : (
+                  <Button
+                    style={{ backgroundColor: "rgba(255,30,30,1)" }}
+                    onClick={() => contract.cancelGoal()}
+                  >
+                    Cancel goal
+                  </Button>
+                )}
               </>
             ) : (
               <>
@@ -147,7 +161,10 @@ const CheckGoal = ({ contract, wallet, connectWallet }) => {
                 ) : goal.claimed ? (
                   "Goal was cancelled"
                 ) : (
-                  <Button onClick={() => contract.cancelGoal()}>
+                  <Button
+                    onClick={() => contract.cancelGoal()}
+                    style={{ backgroundColor: "rgba(255,30,30,1)" }}
+                  >
                     Cancel goal
                   </Button>
                 )}

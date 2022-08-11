@@ -64,7 +64,6 @@ function App() {
 
         console.log(provider.provider.on);
       } catch (err) {}
-      setLoading(false);
     };
     getProvider();
   }, []);

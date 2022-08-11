@@ -57,7 +57,7 @@ const BoxIcon = styled.img`
 const ChooseChallenge = ({ setScreen }) => {
   return (
     <MainContainer>
-      <Title>Bet on Yourself!</Title>
+      <Title>Choose a New Goal</Title>
       <BoxContainer>
         <ChallengeBox onClick={() => setScreen("chessChallenge")}>
           <BoxIcon src={chessIcon} />
