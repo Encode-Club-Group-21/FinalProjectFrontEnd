@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/FinalProjectFrontEnd/static/css/main.e82c3ea8.css",
+    "main.css": "/FinalProjectFrontEnd/static/css/main.b62f548c.css",
     "main.js": "/FinalProjectFrontEnd/static/js/main.1f906d71.js",
     "static/js/787.b3d32539.chunk.js": "/FinalProjectFrontEnd/static/js/787.b3d32539.chunk.js",
     "static/media/Chess-pana.png": "/FinalProjectFrontEnd/static/media/Chess-pana.2bbba85b18c90537bfcb.png",
     "static/media/Leader-rafiki.png": "/FinalProjectFrontEnd/static/media/Leader-rafiki.4508d9e169bd08619bdd.png",
     "static/media/Alone-pana.png": "/FinalProjectFrontEnd/static/media/Alone-pana.ad9a8ee070f8e5a93ecf.png",
+    "static/media/liquid-cheese.png": "/FinalProjectFrontEnd/static/media/liquid-cheese.a14710e57c6f17427ed8.png",
     "static/media/chess.png": "/FinalProjectFrontEnd/static/media/chess.ad2cacee2aa2103b178f.png",
     "index.html": "/FinalProjectFrontEnd/index.html",
-    "main.e82c3ea8.css.map": "/FinalProjectFrontEnd/static/css/main.e82c3ea8.css.map",
+    "main.b62f548c.css.map": "/FinalProjectFrontEnd/static/css/main.b62f548c.css.map",
     "main.1f906d71.js.map": "/FinalProjectFrontEnd/static/js/main.1f906d71.js.map",
     "787.b3d32539.chunk.js.map": "/FinalProjectFrontEnd/static/js/787.b3d32539.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e82c3ea8.css",
+    "static/css/main.b62f548c.css",
     "static/js/main.1f906d71.js"
   ]
 }
