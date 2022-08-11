@@ -94,6 +94,7 @@ const CheckGoal = ({ contract, wallet, connectWallet }) => {
   useEffect(() => {
     if (goal) getRating();
   }, [goal, wallet]);
+
   return (
     <MainContainer>
       {!wallet ? (
